@@ -1,0 +1,5 @@
+> python dataset_tool.py create_lsun datasets/lsun-bedroom-full ~/lsun/bedroom_lmdb --resolution 256
+> python dataset_tool.py create_lsun_wide datasets/lsun-car-512x384 ~/lsun/car_lmdb --width 512 --height 384
+> python dataset_tool.py create_lsun datasets/lsun-cat-full ~/lsun/cat_lmdb --resolution 256
+> python dataset_tool.py create_cifar10 datasets/cifar10 ~/cifar10
+> python dataset_tool.py create_from_images datasets/custom-dataset ~/custom-images
